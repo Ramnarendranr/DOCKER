@@ -1,6 +1,7 @@
 **Docker commands**
 
-**Docker build .** -> builds the docker imager docker run <image_id> -> runs the id
+**Docker build .** -> builds the docker imager 
+**docker run <image_id>** -> runs the id
 **Docker ps** -> lists the running containers
 **Docker ps -a** -> lists all the containers
 
