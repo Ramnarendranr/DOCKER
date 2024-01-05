@@ -37,13 +37,14 @@ Docker attach <container_name>** -> if u want to attach to a container.
 	For eg:
 	**Docker cp dummy/. <container_name>:/app/test**
 
-**Naming and tagging containers and images:
-	docker run - -name <container-name> <image-id>**
+**Naming and tagging containers and images:**
+	
+ **docker run - -name <container-name> <image-id>**
 
-**Pushing Images to Docker hub:
-	docker push <imageid>
-	docker login
-	docker tag <old container name> <new container name>**
+**Pushing Images to Docker hub:**
+	**docker push <imageid>**
+	**docker login**
+	**docker tag <old container name> <new container name>**
  
 **Pulling Imgaes from docker hub:
 	docker pull <containername>**
